@@ -96,6 +96,8 @@ GEM
       i18n (>= 1.6, < 2)
     ffi (1.15.3)
     formatador (0.3.0)
+    friendly_id (5.4.2)
+      activerecord (>= 4.0.0)
     fuubar (2.5.1)
       rspec-core (~> 3.0)
       ruby-progressbar (~> 1.4)
@@ -140,6 +142,8 @@ GEM
     minitest (5.14.4)
     msgpack (1.4.2)
     multi_json (1.15.0)
+    name_of_person (1.1.1)
+      activesupport (>= 5.2.0)
     nenv (0.3.0)
     nio4r (2.5.7)
     nokogiri (1.11.7-x86_64-linux)
@@ -313,12 +317,14 @@ DEPENDENCIES
   capybara
   factory_bot_rails (~> 6.2)
   faker (~> 2.18)
+  friendly_id
   fuubar (~> 2.5, >= 2.5.1)
   guard (~> 2.17)
   guard-livereload (~> 2.5, >= 2.5.2)
   guard-rspec (~> 4.7, >= 4.7.3)
   jbuilder (~> 2.7)
   listen (~> 3.3)
+  name_of_person
   pg (~> 1.2, >= 1.2.3)
   puma (~> 5.0)
   rack-mini-profiler (~> 2.0)
