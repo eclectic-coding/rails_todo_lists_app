@@ -1,17 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>TodoLists</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
+    <%= render "shared/header" %>
+  </head>
 
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
-        <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-</head>
-
-  <body>
-    <%= yield %>
+  <body class="bg-gray-100">
+    <%= render "shared/navbar" %>
+    <main class="min-h-screen container mx-auto mt-8">
+      <%= yield %>
+    </main>
   </body>
 </html>
