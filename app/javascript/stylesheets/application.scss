@@ -16,6 +16,17 @@
   border-radius: 10px;
 }
 
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+navbar {
+  background: white;
+}
+
+@import '@fortawesome/fontawesome-free';
+
+.navbar-icon {
+  font-size: 2rem;
+  color: orangered;
+}
+
+.navbar-toggler {
+  outline-color: orangered !important;
+}
